@@ -1,6 +1,8 @@
 package com.nepplus.librarypractice
 
-abstract class BaseActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+abstract class BaseActivity : AppCompatActivity {
 
     //this자리에 대신 들어갈 변수.
 
